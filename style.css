@@ -40,6 +40,11 @@
 .menu span {
 	margin-right: 30px;
 	cursor: pointer;
+	transition: 0.2s all ease-in-out;
+}
+
+.menu span:hover {
+	color: antiquewhite;
 }
 
 .contact {
@@ -297,6 +302,10 @@
 }
 
 @media (max-width: 575.98px) {
+	.header .menu {
+		display: none;
+	}
+
 	.section1 {
 		flex-direction: column;
 		height: auto;
@@ -305,6 +314,11 @@
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
+
+	.section1 .right {
+		display: none;
+	}
+
 	.section2 {
 		flex-direction: column;
 		height: auto;

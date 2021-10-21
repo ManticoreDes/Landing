@@ -302,6 +302,10 @@
 }
 
 @media (max-width: 575.98px) {
+	.banner {
+		text-align: center;
+	}
+
 	.header .menu {
 		display: none;
 	}
